@@ -1,0 +1,8 @@
+in       = g018.31.9000.cgcurs2.irestor/
+type     = ''
+region   = image
+range    = 0,0,log
+rmsbox   = 40
+device   = /xs
+labtyp   = hms,dms
+options  = normimg,rmsimg,fdrimg,mark,pbcorr,psfsize

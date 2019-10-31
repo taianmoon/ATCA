@@ -1,0 +1,3 @@
+global color=green font="helvetica 12 normal" edit=1 move=1 delete=1 include=1
+image
+polygon 91 126 99 126 99 139 91 139 91 126 # text={1}

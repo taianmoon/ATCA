@@ -1,0 +1,7 @@
+region=boxes(0,0,90,90)
+format=''
+options=''
+log=pixvals.list
+exp=4.71*<sfind.rms>
+in=sfind_senmap.rms
+out=sfind_senmap.rms

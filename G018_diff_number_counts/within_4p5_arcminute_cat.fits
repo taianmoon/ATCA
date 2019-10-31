@@ -1,0 +1,157 @@
+SIMPLE  =                    T / Standard FITS format                           BITPIX  =                    8 / Character data                                 NAXIS   =                    1 / Text string                                    NAXIS1  =                 5155 / Number of characters                           VOTMETA =                    T / Table metadata in VOTable format               EXTEND  =                    T / There are standard extensions                  COMMENT                                                                         COMMENT The data in this primary HDU consists of bytes which                    COMMENT comprise a VOTABLE document.                                            COMMENT The VOTable describes the metadata of the table contained               COMMENT in the following BINTABLE extension.                                    COMMENT Such a BINTABLE extension can be used on its own as a perfectly         COMMENT good table, but the information from this HDU may provide some          COMMENT useful additional metadata.                                             COMMENT There is one following BINTABLE.                                        NTABLE  =                    1 / Number of following BINTABLE HDUs              END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             <?xml version='1.0' encoding='UTF-8'?>
+<VOTABLE version='1.1'>
+<!--
+ !  VOTable written by uk.ac.starlink.votable.FitsPlusTableWriter
+ !  Describes BINTABLE extensions in following HDUs
+ !-->
+<RESOURCE>
+<TABLE name="/home/tc1815/sextractor_test/ATCA/G018/G018_diff_number_counts/Blobcat_5500/g018_5500_mf_large_selfcal_cgcurs_161111_blobs.txt" nrows="20">
+<DESCRIPTION>
+blobcat.py
+ Version 1.2 (July 2014)
+
+ SB image = g018_5500_mf_large_selfcal_cgcurs_161111.fits
+ RMS image = rms_noise.fits
+ Bandwidth smearing (constant) = 1.000e+00
+ Total image size (including blanks) along dimensions (RA , Dec) = (4727 , 2357) pixels
+ Image projection = NCP
+ Total non-blank pixels = 11141539
+ Pixel dimensions (RA , Dec) = (5.596e-01 , 1.122e+00) arcsec
+ Resolution (bmaj , bmin) = (1.151e+01 , 3.818e+00) arcsec, PA = 4.176e+00 deg
+ SNR blob detection threshold (T_d) = 5.000e+00
+ SNR blob flooding threshold (T_f)  = 2.600e+00
+
+ Phase calibrator positional error (RA , Dec) = (1.000e-02 , 1.000e-02) arcsec
+ SELFCAL standard error of the mean (SEM) of gain phases = 5.000e-01 deg
+ Absolute surface brightness error = 5.00 %
+ Pixellation error (affects peak errors) = 2.00 %
+ Clean bias correction = 0.000e+00 Jy/beam
+ Lambda factor for resolved blob peak bias correction = 3.50
+ Blob size limits (min , max) = (5 , 100000) pixels
+ Blob size limits along dimensions (RA , Dec) = (3 , 3) pixels
+ Edge buffer for extracting blobs = 10 pixels
+
+ Important: pixel coordinates start from 0, not 1.
+ Equinox (in years) for equatorial coordinate system = 2000.00
+
+     C1         C2         C3         C4              C5              C6         C7         C8             C9            C10             C11             C12        C13            C14            C15             C16             C17        C18        C19        C20        C21        C22        C23        C24      C25         C26         C27         C28            C29            C30            C31            C32            C33            C34            C35            C36            C37            C38            C39      C40         C41
+     ID       npix        x_p        y_p            RA_p           Dec_p     RA_err    Dec_err            x_c            y_c            RA_c           Dec_c      cFlag           x_wc           y_wc           RA_wc          Dec_wc     wcFlag       xmin       xmax       ymin       ymax        rms    BWScorr        M     SNR_OBS     SNR_FIT         SNR        S_p_OBS        S_p_FIT            S_p         S_p_CB      S_p_CBBWS  S_p_CBBWS_err      S_int_OBS    S_int_OBSCB          S_int       S_int_CB   S_int_CB_err    R_EST     VisArea
+             [pix]      [pix]      [pix]           [deg]           [deg]      [deg]      [deg]          [pix]          [pix]           [deg]           [deg]                     [pix]          [pix]           [deg]           [deg]                 [pix]      [pix]      [pix]      [pix]    [ Jy/b]                                                                 [Jy/b]         [Jy/b]         [Jy/b]         [Jy/b]         [Jy/b]         [Jy/b]           [Jy]           [Jy]           [Jy]           [Jy]           [Jy]
+</DESCRIPTION>
+<FIELD datatype="short" name="col1">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="col2">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="col3">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="col4">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="double" name="col5"/>
+<FIELD datatype="double" name="col6"/>
+<FIELD datatype="float" name="col7"/>
+<FIELD datatype="float" name="col8"/>
+<FIELD datatype="float" name="col9"/>
+<FIELD datatype="float" name="col10"/>
+<FIELD datatype="double" name="col11"/>
+<FIELD datatype="double" name="col12"/>
+<FIELD datatype="short" name="col13">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="float" name="col14"/>
+<FIELD datatype="float" name="col15"/>
+<FIELD datatype="double" name="col16"/>
+<FIELD datatype="double" name="col17"/>
+<FIELD datatype="short" name="col18">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="col19">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="col20">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="col21">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="col22">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="float" name="col23"/>
+<FIELD datatype="float" name="col24"/>
+<FIELD datatype="float" name="col25"/>
+<FIELD datatype="float" name="col26"/>
+<FIELD datatype="float" name="col27"/>
+<FIELD datatype="float" name="col28"/>
+<FIELD datatype="double" name="col29"/>
+<FIELD datatype="double" name="col30"/>
+<FIELD datatype="double" name="col31"/>
+<FIELD datatype="double" name="col32"/>
+<FIELD datatype="double" name="col33"/>
+<FIELD datatype="double" name="col34"/>
+<FIELD datatype="double" name="col35"/>
+<FIELD datatype="double" name="col36"/>
+<FIELD datatype="double" name="col37"/>
+<FIELD datatype="double" name="col38"/>
+<FIELD datatype="double" name="col39"/>
+<FIELD datatype="float" name="col40"/>
+<FIELD datatype="float" name="col41"/>
+<!-- Dummy VOTable - no DATA element -->
+</TABLE>
+</RESOURCE>
+</VOTABLE>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             XTENSION= 'BINTABLE'           / binary table extension                         BITPIX  =                    8 / 8-bit bytes                                    NAXIS   =                    2 / 2-dimensional table                            NAXIS1  =                  212 / width of table in bytes                        NAXIS2  =                   20 / number of rows in table                        PCOUNT  =                    0 / size of special data area                      GCOUNT  =                    1 / one data group                                 TFIELDS =                   41 / number of columns                              EXTNAME = '/home/tc1815/sextractor_test/ATCA/G018/G018_diff_number_counts/Bl...'TTYPE1  = 'col1    '           / label for column 1                             TFORM1  = 'I       '           / format for column 1                            TTYPE2  = 'col2    '           / label for column 2                             TFORM2  = 'I       '           / format for column 2                            TTYPE3  = 'col3    '           / label for column 3                             TFORM3  = 'I       '           / format for column 3                            TTYPE4  = 'col4    '           / label for column 4                             TFORM4  = 'I       '           / format for column 4                            TTYPE5  = 'col5    '           / label for column 5                             TFORM5  = 'D       '           / format for column 5                            TTYPE6  = 'col6    '           / label for column 6                             TFORM6  = 'D       '           / format for column 6                            TTYPE7  = 'col7    '           / label for column 7                             TFORM7  = 'E       '           / format for column 7                            TTYPE8  = 'col8    '           / label for column 8                             TFORM8  = 'E       '           / format for column 8                            TTYPE9  = 'col9    '           / label for column 9                             TFORM9  = 'E       '           / format for column 9                            TTYPE10 = 'col10   '           / label for column 10                            TFORM10 = 'E       '           / format for column 10                           TTYPE11 = 'col11   '           / label for column 11                            TFORM11 = 'D       '           / format for column 11                           TTYPE12 = 'col12   '           / label for column 12                            TFORM12 = 'D       '           / format for column 12                           TTYPE13 = 'col13   '           / label for column 13                            TFORM13 = 'I       '           / format for column 13                           TTYPE14 = 'col14   '           / label for column 14                            TFORM14 = 'E       '           / format for column 14                           TTYPE15 = 'col15   '           / label for column 15                            TFORM15 = 'E       '           / format for column 15                           TTYPE16 = 'col16   '           / label for column 16                            TFORM16 = 'D       '           / format for column 16                           TTYPE17 = 'col17   '           / label for column 17                            TFORM17 = 'D       '           / format for column 17                           TTYPE18 = 'col18   '           / label for column 18                            TFORM18 = 'I       '           / format for column 18                           TTYPE19 = 'col19   '           / label for column 19                            TFORM19 = 'I       '           / format for column 19                           TTYPE20 = 'col20   '           / label for column 20                            TFORM20 = 'I       '           / format for column 20                           TTYPE21 = 'col21   '           / label for column 21                            TFORM21 = 'I       '           / format for column 21                           TTYPE22 = 'col22   '           / label for column 22                            TFORM22 = 'I       '           / format for column 22                           TTYPE23 = 'col23   '           / label for column 23                            TFORM23 = 'E       '           / format for column 23                           TTYPE24 = 'col24   '           / label for column 24                            TFORM24 = 'E       '           / format for column 24                           TTYPE25 = 'col25   '           / label for column 25                            TFORM25 = 'E       '           / format for column 25                           TTYPE26 = 'col26   '           / label for column 26                            TFORM26 = 'E       '           / format for column 26                           TTYPE27 = 'col27   '           / label for column 27                            TFORM27 = 'E       '           / format for column 27                           TTYPE28 = 'col28   '           / label for column 28                            TFORM28 = 'E       '           / format for column 28                           TTYPE29 = 'col29   '           / label for column 29                            TFORM29 = 'D       '           / format for column 29                           TTYPE30 = 'col30   '           / label for column 30                            TFORM30 = 'D       '           / format for column 30                           TTYPE31 = 'col31   '           / label for column 31                            TFORM31 = 'D       '           / format for column 31                           TTYPE32 = 'col32   '           / label for column 32                            TFORM32 = 'D       '           / format for column 32                           TTYPE33 = 'col33   '           / label for column 33                            TFORM33 = 'D       '           / format for column 33                           TTYPE34 = 'col34   '           / label for column 34                            TFORM34 = 'D       '           / format for column 34                           TTYPE35 = 'col35   '           / label for column 35                            TFORM35 = 'D       '           / format for column 35                           TTYPE36 = 'col36   '           / label for column 36                            TFORM36 = 'D       '           / format for column 36                           TTYPE37 = 'col37   '           / label for column 37                            TFORM37 = 'D       '           / format for column 37                           TTYPE38 = 'col38   '           / label for column 38                            TFORM38 = 'D       '           / format for column 38                           TTYPE39 = 'col39   '           / label for column 39                            TFORM39 = 'D       '           / format for column 39                           TTYPE40 = 'col40   '           / label for column 40                            TFORM40 = 'E       '           / format for column 40                           TTYPE41 = 'col41   '           / label for column 41                            TFORM41 = 'E       '           / format for column 41                           DATE-HDU= '2017-05-25T16:24:33' / Date of HDU creation (UTC)                    STILVERS= '3.1     '           / Version of STIL software                       STILCLAS= 'uk.ac.starlink.votable.FitsPlusTableWriter' / Author class in STIL soEND                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              ! -(ˆ@u˛§ÌŸù˝¿>:@ôãP8‚~9ß?uEâHDû≠q@u˛§ÄÛ@ª¿>:Ll!2Õ EàˆDûØ
+@u˛§É´NV¿>:Ky›ﬁÂ %,Ò˘6Óío?Ä  >Æ{@⁄˘€@‡ãD@‡ãD?	~4C°0?
+$}íôÃx?
+$}íôÃx?
+$}íôÃx?
+$}íôÃx>ﬂ‹œ®>Ú7!√∂€Ô>Ú7!√∂€Ô>˘Ω†DËó >˘Ω†DËó >ﬁ>˝ú9ê?ÎÖøÄ     ;‰¯@u˛qƒ+¿>NÜp·ÆJ8‰ñÓ9ß≈¨E[\D}~@u˛.¨≥¿>NØÁ˘ EX§D}á
+@u˛O∞cÿ¿>N≠SQø ‚ÈÚ˙6Ó<â?Ä  >ÎÖ@‹É@ﬂdZ@ﬂdZ?	™Íàe?
+ ¯Dï^?
+ ¯Dï^?
+ ¯Dï^?
+ ¯Dï^>ﬂ’Ì	æßæ>ˆ7üµÑµ>ˆ7üµÑµ>ˇza¢âª¨>ˇza¢âª¨>ﬁu
+ˆµOü?@  øÄ   $ B,@u˛°ˆ„ƒ¿>8E„Ó8˘è£9∏lE‹ÕD¢ @u˛†¢›Óë¿>8"¡5î‚ E‹)D¢ @u˛†´ì¿>8"ŒÓ›e (26Óío?Ä  ?z·@À∆®@Ã1@Ã1?∏Ça ms?¿+˙Ω s?¿+˙Ω s?¿+˙Ω s?¿+˙Ω s>ﬂÇG∆4^;>ˆÂÒs6πø>ˆÂÒs6πø?¨ƒé'?¨ƒé'>ﬁí?ÍÎ*›?n{øÄ   * >	–2@u˝lj∫$¿>IÊx".19ÚE9‹3rE
+DÜN@u˝k+Pú¿>I›êáƒ E∏DÜM@u˝k/ú¿>IﬁÉ 	Œ	÷.86Ó<â?Ä  ?5¬è@®ı√@™M”@™M”?™n	Òb?—?açéF?—?açéF?—?açéF?—?açéF>ﬁ˝≈ÍóÇ*>ıa}~…ı->ıa}~…ı-?1(YŒÛ?1(YŒÛ>ﬁ®†•ÍÄÈ?ãÖøÄ    F	ˇ@u˝I‹ïÀ6¿>8kk¯êd8ﬁLQ9§&E§D°Õ@u˝I‘™ëπ¿>8N~Àñ E{D°∆f@u˝I÷∑\M¿>8R›CMƒ 	˙
+6Ó<â?Ä  ?   @‰Aâ@‰‘˛@‰‘˛?
+èö¥ôΩ?
+†LØÔ∑?
+†LØÔ∑?
+†LØÔ∑?
+†LØÔ∑>ﬂÎµ6—ê>˚◊ÚNÕQ≤>˚◊ÚNÕQ≤?~›‚˘‘?~›‚˘‘>ﬁ æûdæl?^∏RøÄ   " IeX@u˛xºóá¿>F›¯˜´¶8‚~9¶3E1HDä·ö@u˛yx”a£¿>FÒ>‹âÆ E1öDäÂ√@u˛yv.e¿>FÓ∞]ëí `gQ]6Óío?Ä  ?5¬è@⁄E¢@·ëh@·ëh?	iƒM¸ˇÚ?
+CÜ;:∏?
+CÜ;:∏?
+CÜ;:∏?
+CÜ;:∏>ﬂ·j»ÄÙ>ˇıuÉ÷·È>ˇıuÉ÷·È?á≥ìåŸ?á≥ìåŸ>ﬂ#E3‡AØ?kÖøÄ    T≥@u˛>í§ƒ ¿>L_;
+(^8ÿ¥9û€˘E DÇŒ∏@u˛?≠á—‡¿>Lá(Üe EÖDÇƒÕ@u˛?É|L¿>L·∆»¡ ¨∂6Óío?Ä  ?z·@È?}@ÏQÏ@ÏQÏ?&∆+C?ÇˇØë=V?ÇˇØë=V?ÇˇØë=V?ÇˇØë=V>‡	A<≤‡º? ∂±ÇnÑ√? ∂±ÇnÑ√?¿ëÇ⁄H?¿ëÇ⁄H>ﬂ2,#[?Çè\øÄ    Z
+@’@u˝Ó…K‰¿><„Ö~ç,8»G,9ìS.E$ÏDöÆ@u˝◊ëô<¿><¯09 E$èDöÅH@u˝œØÄ6¿><˜9 
+;
+EÕ€6Ó<â?Ä  >Êff@˚K«@˛v…@˛v…?>#,"i?ú¡¡‘ø¡?ú¡¡‘ø¡?ú¡¡‘ø¡?ú¡¡‘ø¡>‡3ˇ∂ŸÒN?m4ı°Àv?m4ı°Àv?û"ù¨∑?û"ù¨∑>ﬂ_Ûßü?Çè\øÄ   ) \—†@u˛(j?¬k¿>A zgı9Ã˜9ÿáÏE3Dî√@u˛'∑√{?¿>A~>¡© EDîè@u˛'œÏ.¿>AyßÉ4 Õ◊ôß6Óío?Ä  ?Üff@≠7L@≠?}@≠?}?)Â•*?*ÄÛ_ßì?*ÄÛ_ßì?*ÄÛ_ßì?*ÄÛ_ßì>ﬂ
+ìI Ô‡>˛{WBìƒµ>˛{WBìƒµ?	nUë®‘?	nUë®‘>ﬂ}4˘„i*? =qøÄ    k∫@u˛9Uå≠ ¿>8ML˛•8–‡X9ôùÀE°D¢DÕ@u˛9IÈ¿>8 d ü E°öD¢B·@u˛9Cˇ¿>8Òûäº µø
+6Ó<â?Ä  ?ÃÕ@Ù  @Ù  @Ù  ?f2—Û⁄ ?f2—Û⁄ ?f2—Û⁄ ?f2—Û⁄ ?f2—Û⁄ >‡“ZÎŒ?ŸiÎÁ|I?ŸiÎÁ|I?µQÓ–¶Œ?µQÓ–¶Œ>‡
+6≥¸ø1?°GÆøÄ    {	J@u˛ üKËø¿>G˝,àkñ8œ”Ë9ôîEcÆDâ_\@u˛1Êì¿>GÈ@˚æ EdˆDâaÏ@u˛"`}¿>GÁë/x˚ 	 	AR6Ó<â?Ä  ?∏R@Ûæw@ıGÆ@ıGÆ?_5]mé
+?åÒ Ù?åÒ Ù?åÒ Ù?åÒ Ù>‡sSµt~?wnl1f?wnl1f?òá(Üdë?òá(Üdë>‡OøÖ}“à?∏QÏøÄ    n	ƒï@u˝uL=ˆ¿>B ˘˚A8ëx9UË’EJfDí∏§@u˝t“Dıó¿>AÒ/,æO EIDí∫=@u˝tﬂ o>¿>AA(
+ÿ 	¿	…éù6Ó<â?Ä  >W
+=A-¬èA/ÆA/Æ?;9r¨4?p˝ßãŒƒ?p˝ßãŒƒ?p˝ßãŒƒ?p˝ßãŒƒ>·Nà±®D?5≈#´·?5≈#´·?
+Qœ¬◊?
+Qœ¬◊>‡`ÿä0|ˆ?u¬èøÄ    yVÁ@u˛É
+9G}¿>;t	i$8ƒK9ê-‡E[\Dù%q@u˛É@~ˆ*¿>;G¬∑J/ E^=Dù( @u˛Éydg¿>;E˜˘ˇæ N[·Ô6Óío?Ä  ?8QÏA ^5A€#A€#?„\§ΩÌ?<z0}Z?<z0}Z?<z0}Z?<z0}Z>‡C/‹º€ı?V^«”–?V^«”–?∆Ãô™mH?∆Ãô™mH>‡Ø‡=Æ»C?´ÖøÄ   
+ vkŒ@u˛sìòΩj¿>=sf6N8\û“9"áE¬èDôÆ∏@u˛r∏ù¿∆¿>=~Ä<Î E¡√Dô±Ï@u˛r¡ºX¿>=|f‘Üë gq∆‘6Óío?Ä  >ôöAc◊
+AgÖAgÖ?ÉÎ∞≥Sπ?Ú€ªcT?Ú€ªcT?Ú€ªcT?Ú€ªcT>‚„Áh†?£‰Eƒ@E?£‰Eƒ@E?!õjY$?!õjY$>‡!Ñ…˜?^∏RøÄ    Å
+s"@u¸Ùg@+¿>6º ›‹¶8ò¨49`e0E'3
+D§b=@u¸ÙD[˙}¿>6¶•F: E'2fD§d)@u¸ÙKj—I¿>6§È%jj 
+m
+y+6Ó<â?Ä  >◊
+=A&ffA'33A'33?^G @&Ì?sÃ_Û?sÃ_Û?sÃ_Û?sÃ_Û>·õº˘W?Æy}¨Ìv?Æy}¨Ìv?bxËyE?bxËyE>‡˙ëos?ï¬èøÄ    ¢	∫⁄@u˝|úŒÇZ¿>PÍ¸Ÿ|8∑Ä49ÜΩıEŸDu±H@u˝y˙·)ù¿>Q+„a˛g EÀ
+Du∂f@u˝z†JñZ¿>Q*]›º 	µ	…–‹6Ó<â?Ä  ?z·AºjA
+˝ÙA
+˝Ù?“ôöèE™?,ãã”J"?,ãã”J"?,ãã”J"?,ãã”J">‡qÃOÏ'‰?ñbB^Ö?ñbB^Ö?o¸Ñ–’µ?o¸Ñ–’µ>·/ÏáÊ°Õ?ÿQÏøÄ    µ	dÂ@u˝º6Éπ¿>P
+0âœf8©s+9yè£E4{Dyœ\@u˝ºí‡(0¿>O‹pøÏ— E5öDy∂f@u˝ºÜ“}Õ¿>O‰^ıÍ‰ 	^	i⁄Ù6Ó<â?Ä  >ÊffAS¯AÉAÉ?a0+tÿÑ?Ñé—ﬁøG?Ñé—ﬁøG?Ñé—ﬁøG?Ñé—ﬁøG>‡≥”Õã#?¸”íÅ™?¸”íÅ™?ÊΩl@ö?ÊΩl@ö>·≥mßH©?„◊
+øÄ    ™	O5@u˝Àâ) w¿>I©ÌÇWë8‡e09•&ñE°HDá)@u˝œ*é„¢¿>Ijà¸5 E¨ˆDÜˇ\@u˝Œ†2¿>Im(Y- 	?	S1?6Ó<â?Ä  ?îz·@Â“Ú@ÁŒŸ@„?
+¿*æ˘≤)?
+˙†y@ãq?
+köºáÍ?
+köºáÍ?
+köºáÍ>ﬂÂpø∫∏ ?wÑ[è3?wÑ[è3?åâ©Õ?åâ©Õ>·◊Ÿ<äS≤@ı√øÄ   	 ¬}@u˛±â˘Èf¿>CÈB)_8j8ﬁLQEhRDè°ö@u˛±Âh≠ú¿>CË*e* EjèDè£3@u˛± Á¯÷¿>CÁiı uÖ6Óío?Ä  >∏A®{A®ÃÕA®ÃÕ?#í˝ı√˘€?#ßì‚àfe?#ßì‚àfe?#ßì‚àfe?#ßì‚àfe>ÊèR…?"T∫J·?"T∫J·?#†,Ú ¨‹?#†,Ú ¨‹>Â•«∫Î)(?ï¬èøÄ   L	9x@u˝€¡“.¿>DQÛ£‚Y7Ôl7∆œ]E\Déº{@u˝‹Ö∏È¿>D|¸nø¿ E°öDéø\@u˝⁄ÚB˛¿>D{-ªÿë 		^bè6Ó<â?Ä  =ÃÃÕB√·HBƒÊfBƒÊf?FÃÜgÜ?FÎX z~?FÎX z~?FÎX z~?FÎX z~?ó¸∏Ñ5?j\•Gw∏…?j\•Gw∏…?jºc±z?jºc±z?%h≤q Ù@œÆøÄ                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  

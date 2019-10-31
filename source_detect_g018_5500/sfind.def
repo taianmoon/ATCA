@@ -1,0 +1,7 @@
+in       = g018.31.5500.mf.large.selfcal.cgcurs2.irestor/
+type     = ''
+range    = 0,0,log
+rmsbox   = 40
+device   = /xs
+labtyp   = hms,dms
+options  = normimg,rmsimg,fdrimg,mark,pbcorr,psfsize

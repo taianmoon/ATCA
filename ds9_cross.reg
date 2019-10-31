@@ -1,0 +1,73 @@
+# Region file format: DS9 version 4.1
+# Filename: g018_5500_mf_large_selfcal_cgcurs_161111.fits
+global color=blue dashlist=8 3 width=1 font="helvetica 10 normal roman" select=1 highlite=1 dash=0 fixed=0 edit=1 move=1 delete=1 include=1 source=1
+fk5
+
+
+
+
+
+point(23:28:22.060,	-30:10:30.22			) # point=cross color=blue
+point(23:28:13.449,	-30:14:36.54			) # point=cross color=blue
+point(23:28:01.891,	-30:14:10.48			) # point=cross color=blue
+point(23:28:00.933,	-30:18:28.14			) # point=cross color=blue
+point(23:28:01.019,	-30:14:35.67			) # point=cross color=blue
+point(23:27:56.226,	-30:10:48.39			) # point=cross color=blue
+point(23:27:56.247,	-30:10:49.14			) # point=cross color=blue
+point(23:27:56.263,	-30:10:48.35			) # point=cross color=blue
+point(23:27:55.608,	-30:10:43.45			) # point=cross color=blue
+point(23:27:55.408,	-30:10:34.55			) # point=cross color=blue
+point(23:27:54.546,	-30:10:07.00			) # point=cross color=blue
+point(23:27:53.959,	-30:10:10.18			) # point=cross color=blue
+point(23:27:49.256,	-30:16:17.28			) # point=cross color=blue
+point(23:27:49.179,	-30:16:21.03			) # point=cross color=blue
+point(23:27:46.871,	-30:17:46.26			) # point=cross color=blue
+point(23:27:40.404,	-30:15:54.75			) # point=cross color=blue
+point(23:27:39.611,	-30:13:40.08			) # point=cross color=blue
+point(23:27:39.606,	-30:25:55.30			) # point=cross color=blue
+point(23:27:39.172,	-30:25:53.46			) # point=cross color=blue
+point(23:27:39.494,	-30:13:08.37			) # point=cross color=blue
+point(23:27:37.702,	-30:13:54.30			) # point=cross color=blue
+point(23:27:37.669,	-30:13:50.42			) # point=cross color=blue
+point(23:27:37.134,	-30:16:39.93			) # point=cross color=blue
+point(23:27:37.074,	-30:16:36.25			) # point=cross color=blue
+point(23:27:36.727,	-30:14:24.79			) # point=cross color=blue
+point(23:27:34.830,	-30:23:51.97			) # point=cross color=blue
+point(23:27:33.648,	-30:17:52.89			) # point=cross color=blue
+point(23:27:33.377,	-30:13:08.10			) # point=cross color=blue
+point(23:27:32.503,	-30:15:12.96			) # point=cross color=blue
+point(23:27:31.553,	-30:18:24.85			) # point=cross color=blue
+point(23:27:30.043,	-30:16:52.30			) # point=cross color=blue
+point(23:27:30.109,	-30:16:45.67			) # point=cross color=blue
+point(23:27:29.046,	-30:15:55.87			) # point=cross color=blue
+point(23:27:28.688,	-30:21:28.73			) # point=cross color=blue
+point(23:27:27.885,	-30:16:01.18			) # point=cross color=blue
+point(23:27:27.079,	-30:17:11.66			) # point=cross color=blue
+point(23:27:26.990,	-30:16:10.75			) # point=cross color=blue
+point(23:27:27.017,	-30:17:13.25			) # point=cross color=blue
+point(23:27:26.032,	-30:18:45.61			) # point=cross color=blue
+point(23:27:22.826,	-30:20:07.97			) # point=cross color=blue
+point(23:27:22.821,	-30:20:03.00			) # point=cross color=blue
+point(23:27:22.159,	-30:19:02.95			) # point=cross color=blue
+point(23:27:22.312,	-30:19:00.64			) # point=cross color=blue
+point(23:27:21.823,	-30:15:27.90			) # point=cross color=blue
+point(23:27:19.321,	-30:13:13.25			) # point=cross color=blue
+point(23:27:16.564,	-30:14:15.81			) # point=cross color=blue
+point(23:27:15.302,	-30:10:56.72			) # point=cross color=blue
+point(23:27:14.324,	-30:12:48.36			) # point=cross color=blue
+point(23:27:13.531,	-30:22:20.20			) # point=cross color=blue
+point(23:27:07.563,	-30:18:25.87			) # point=cross color=blue
+point(23:27:03.750,	-30:16:11.48			) # point=cross color=blue
+point(23:27:03.747,	-30:16:07.95			) # point=cross color=blue
+point(23:26:59.397,	-30:17:42.22			) # point=cross color=blue
+point(23:26:57.043,	-30:03:17.22			) # point=cross color=blue
+point(23:26:35.529,	-30:19:55.94			) # point=cross color=blue
+point(23:26:27.085,	-30:13:22.50			) # point=cross color=blue
+point(23:26:26.195,	-30:11:03.65			) # point=cross color=blue
+point(23:26:25.750,	-30:11:09.46			) # point=cross color=blue
+point(23:26:25.648,	-30:11:09.21			) # point=cross color=blue
+point(23:26:25.252,	-30:11:09.22			) # point=cross color=blue
+point(23:26:09.907,	-30:12:07.48			) # point=cross color=blue
+
+
+

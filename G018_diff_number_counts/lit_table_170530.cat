@@ -1,0 +1,18 @@
+# delta_S S_avg N_lit N_us N_us_within_4p5_arcmin N_us_within_4p5_arcmin_per_str N_us_within_4p5_arcmin_per_str_weighted N_exp_using60*S^1.5 Nc/N_exp_us
+
+7-10 8.5 N/A 2 N/A N/A N/A 2.42e9 N/A
+10-14 12 N/A 0 N/A N/A N/A 1.44e9 N/A
+14-20 17 N/A 0 N/A N/A N/A 8.56e8 N/A
+20-28 24 N/A 4 1 1.86e5 5.24e-7 5.1e8 1.03e-15
+28-40 34 N/A 6 4 7.43e5 5e-6 3.03e8 1.65e-14
+40-57 49 33 7 5 9.28e5 1.56e-5 1.75e8 8.92e-14
+57-80 68 30 12 5 9.28e5 3.54e-5 1.07e8 3.31e-13
+80-113 96 33 7 3 5.57e5 5.03e-5 6.38e7 7.89e-13
+113-159 135 20 2 1 1.86e5 3.9e-5 3.83e7 1.03e-12
+159-270 206 20 3 N/A N/A N/A 2.03e7 N/A
+270-459 368 9 1 N/A N/A N/A 8.5e6 N/A
+459-780 589 15 0 N/A N/A N/A 4.2e6 N/A
+780-1325 1084 6 0 N/A N/A N/A 1.68e6 N/A
+1325-2249 1802 4 0 N/A N/A N/A 7.84e5 N/A
+2249-3820 2960 4 3 1 1.86e5 8.86e-2 3.73e5 2.38e-7
+3820-6487 4367 2 0 N/A N/A N/A 2.08e5 N/A
